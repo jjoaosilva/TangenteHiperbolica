@@ -26,7 +26,7 @@ Para uma boa precisão, fora usadas 9 retas (equações do primeiro grau) para r
 ### Python
 Para testes rápidos e validação, na pasta 'Python' contém a implementação função Tangente Hiperbólica Linearizada fazendo comparativo com a Tangente hiperbólica da Math do próprio Python.
 
-![alt text](https://github.com/jjoaosilva/TangenteHiperbolica/blob/master/imgs/python.png?raw=true)
+![alt text](https://github.com/jjoaosilva/TangenteHiperbolica/blob/master/imgs/python.PNG?raw=true)
 
 ### VHDL
 Para implementação em VHDL, foram feitos os seguintes componentes:
