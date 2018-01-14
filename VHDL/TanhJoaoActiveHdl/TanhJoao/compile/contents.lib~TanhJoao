@@ -1,0 +1,13 @@
+883
+~E 1 "./src/Somador.vhd" 28 somador
+~A 1 "./src/somador.vhd" 36 somador
+~E 1 "./src/HalfAdder.vhd" 28 halfadder
+~A 1 "./src/halfadder1.vhd" 39 halfadder
+~E 1 "./src/Func1Grau.vhd" 29 func1grau
+~A 1 "./src/func1grau.vhd" 38 func1grau
+~E 1 "./src/Multiplicador.vhd" 29 multiplicador
+~A 1 "./src/multiplicador.vhd" 39 multiplicador
+~E 1 "./src/TanhL.vhd" 29 tanhl
+~A 1 "./src/tanhl.vhd" 38 tanhl
+~E 1 "./src/teste.vhd" 29 teste
+~A 1 "./src/teste.vhd" 39 teste

@@ -1,0 +1,49 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=tanhjoao
+
+[Library]
+TanhJoao=.\TanhJoao.LIB
+
+[$LibMap$]
+TanhJoao=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=tanhl|tanhl|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/HalfAdder1.vhd=-1
+/Somador.vhd=-1
+/Multiplicador.vhd=-1
+/Func1Grau.vhd=-1
+/teste.vhd=-1
+/TanhL.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\HalfAdder1.vhd=VHDL Source Code
+.\src\Somador.vhd=VHDL Source Code
+.\src\Multiplicador.vhd=VHDL Source Code
+.\src\Func1Grau.vhd=VHDL Source Code
+.\src\teste.vhd=VHDL Source Code
+.\src\TanhL.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+

@@ -1,0 +1,34 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/HalfAdder.vhd" in Library work.
+Architecture halfadder of Entity halfadder is up to date.
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Multiplicador.vhd" in Library work.
+Architecture multiplicador of Entity multiplicador is up to date.
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Somador.vhd" in Library work.
+Architecture somador of Entity somador is up to date.
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Func1Grau.vhd" in Library work.
+Entity <Func1Grau> compiled.
+Entity <Func1Grau> (Architecture <Func1Grau>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+
+Total memory usage is 170168 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

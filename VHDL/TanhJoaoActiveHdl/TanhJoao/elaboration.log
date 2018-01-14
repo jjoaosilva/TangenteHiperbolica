@@ -1,0 +1,21 @@
+elbread.dll ver. 1.0.5.375 Wed May 04 08:39:04 2016
+
+
+-----------------------------------------
+Entity         | Architecture  | Library
+-----------------------------------------
+tanhl          | tanhl         | tanhjoao
+func1grau      | func1grau     | tanhjoao
+multiplicador  | multiplicador | tanhjoao
+somador        | somador       | tanhjoao
+halfadder      | halfadder     | tanhjoao
+-----------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+numeric_std     | ieee
+-------------------------

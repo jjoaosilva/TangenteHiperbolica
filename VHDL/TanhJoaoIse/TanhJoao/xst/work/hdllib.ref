@@ -1,0 +1,10 @@
+AR halfadder halfadder C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/HalfAdder.vhd sub00/vhpl01 1461939054
+AR tanhl tanhl C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/TanhL.vhd sub00/vhpl09 1461939062
+AR func1grau func1grau C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Func1Grau.vhd sub00/vhpl07 1461939060
+EN halfadder NULL C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/HalfAdder.vhd sub00/vhpl00 1461939053
+EN multiplicador NULL C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Multiplicador.vhd sub00/vhpl04 1461939055
+AR somador somador C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Somador.vhd sub00/vhpl03 1461939058
+AR multiplicador multiplicador C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Multiplicador.vhd sub00/vhpl05 1461939056
+EN somador NULL C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Somador.vhd sub00/vhpl02 1461939057
+EN func1grau NULL C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Func1Grau.vhd sub00/vhpl06 1461939059
+EN tanhl NULL C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/TanhL.vhd sub00/vhpl08 1461939061

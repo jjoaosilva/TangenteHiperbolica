@@ -1,0 +1,38 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+asim -advdataflow  tanhl tanhl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1911 kB (elbread=1024 elab2=599 kernel=288 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Joao\Desktop\RESULTADOS\EstudoTanh\TestesRenan\TanhJoao\TanhJoaoActiveHdl\TanhJoao\src\wave.asdb
+#  08:39, quarta-feira, 4 de maio de 2016
+#  Simulation has been initialized
+#  Selected Top-Level: tanhl (tanhl)
+# 10 signal(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped
+# Adding file C:\Users\Joao\Desktop\RESULTADOS\EstudoTanh\TestesRenan\TanhJoao\TanhJoaoActiveHdl\TanhJoao\src\untitled.asdb ... Done
+# Adding file C:\Users\Joao\Desktop\RESULTADOS\EstudoTanh\TestesRenan\TanhJoao\TanhJoaoActiveHdl\TanhJoao\src\untitled.awc ... Done

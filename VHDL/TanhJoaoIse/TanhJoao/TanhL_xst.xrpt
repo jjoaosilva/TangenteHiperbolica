@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="nt" product="ISE" version="10.1.03">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="Xst" timeStamp="Fri Apr 29 11:10:53 2016">
+    <section stringID="XST_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="2">
+        <item dataType="int" stringID="XST_32BIT_ADDER" value="1"/>
+      </item>
+      <item dataType="int" stringID="XST_COMPARATORS" value="18"></item>
+      <item dataType="int" stringID="XST_XORS" value="100">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="100"/>
+      </item>
+    </section>
+    <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORT">
+      <item dataType="int" stringID="XST_ADDERSSUBTRACTORS" value="2">
+        <item dataType="int" stringID="XST_32BIT_ADDER" value="1"/>
+      </item>
+      <item dataType="int" stringID="XST_COMPARATORS" value="18"></item>
+      <item dataType="int" stringID="XST_XORS" value="100">
+        <item dataType="int" stringID="XST_1BIT_XOR2" value="100"/>
+      </item>
+    </section>
+    <section stringID="XST_FINAL_REGISTER_REPORTFOUND_NO_MACRO"/>
+    <section stringID="XST_PARTITION_REPORT">
+      <section stringID="XST_PARTITION_IMPLEMENTATION_STATUS">
+        <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
+      </section>
+    </section>
+    <section stringID="XST_FINAL_REPORT">
+      <section stringID="XST_FINAL_RESULTS">
+        <item stringID="XST_RTL_TOP_LEVEL_OUTPUT_FILE_NAME" value="TanhL.ngr"/>
+        <item stringID="XST_TOP_LEVEL_OUTPUT_FILE_NAME" value="TanhL"/>
+        <item stringID="XST_OUTPUT_FORMAT" value="NGC"/>
+        <item stringID="XST_OPTIMIZATION_GOAL" value="Speed"/>
+        <item stringID="XST_KEEP_HIERARCHY" value="NO"/>
+      </section>
+      <section stringID="XST_DESIGN_STATISTICS">
+        <item stringID="XST_IOS" value="41"/>
+      </section>
+      <section stringID="XST_CELL_USAGE">
+        <item dataType="int" stringID="XST_BELS" value="524">
+          <item dataType="int" stringID="XST_GND" value="1"/>
+          <item dataType="int" stringID="XST_INV" value="25"/>
+          <item dataType="int" stringID="XST_LUT2" value="45"/>
+          <item dataType="int" stringID="XST_LUT3" value="90"/>
+          <item dataType="int" stringID="XST_LUT4" value="123"/>
+          <item dataType="int" stringID="XST_MUXCY" value="159"/>
+          <item dataType="int" stringID="XST_MUXF5" value="15"/>
+          <item dataType="int" stringID="XST_VCC" value="1"/>
+          <item dataType="int" stringID="XST_XORCY" value="65"/>
+        </item>
+        <item dataType="int" stringID="XST_IO_BUFFERS" value="41">
+          <item dataType="int" stringID="XST_IBUF" value="25"/>
+          <item dataType="int" stringID="XST_OBUF" value="16"/>
+        </item>
+      </section>
+    </section>
+    <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
+      <item stringID="XST_SELECTED_DEVICE" value="3s500efg320-4"/>
+      <item AVAILABLE="4656" dataType="int" stringID="XST_NUMBER_OF_SLICES" value="152"/>
+      <item AVAILABLE="9312" dataType="int" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="283"/>
+      <item dataType="int" stringID="XST_NUMBER_OF_IOS" value="41"/>
+      <item AVAILABLE="232" dataType="int" stringID="XST_NUMBER_OF_BONDED_IOBS" value="41"/>
+    </section>
+    <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
+      <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
+    </section>
+    <section stringID="XST_ERRORS_STATISTICS">
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="22"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="1"/>
+    </section>
+  </application>
+
+</document>

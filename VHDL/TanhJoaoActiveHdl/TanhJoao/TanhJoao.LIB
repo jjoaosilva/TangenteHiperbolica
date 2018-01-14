@@ -1,0 +1,73 @@
+timestamp=1462279589853
+
+[func1grau]
+A/func1grau=A/Func1Grau 21|./src/func1grau.vhd|38|1*696472
+B/func1grau=3*195213
+I=0*40538
+I/func1grau=I/Func1Grau 0*42648
+M=11|0|v147|1461853738100|./src/Func1Grau.vhd|0*40141*0xf9fbe19eaff6881ecd2a9e69fd44405aeec34c67|0*40462*0x7bd7e13dc0415552f89596087806a8cf
+M/func1grau=M/Func1Grau 21|0|v147|1462279589459|./src/Func1Grau.vhd|0*41820*0xfc8607ffd82b67e8cdaaad31de3ee81cff2efefd|0*42559*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Func1Grau.vhd|29
+
+[halfadder]
+A/halfadder=A/HalfAdder 21|./src/halfadder1.vhd|39|1*707508
+B/halfadder=3*204254
+I=0*575
+I/halfadder=I/HalfAdder 0*1011
+M=11|0|v147|1461767026635|./src/HalfAdder.vhd|0*220*0x82e6cb2271a84a112bc28a596c53887e72279603|0*499*0x7bd7e13dc0415552f89596087806a8cf
+M/halfadder=M/HalfAdder 21|0|v147|1462279589647|./src/HalfAdder.vhd|0*678*0x3dd5cf4546f6a863ebff64949e8f62931616cf13|0*922*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/HalfAdder.vhd|28
+
+[multiplicador]
+A/multiplicador=A/Multiplicador 21|./src/multiplicador.vhd|39|1*680542
+B/multiplicador=3*194019
+I=0*2874
+I/multiplicador=I/Multiplicador 0*3380
+M=11|0|v147|1461767634589|./src/Multiplicador.vhd|0*2473*0x15213be86d4914508f86c1afb3a683e1b94ec4ec|0*2790*0x7bd7e13dc0415552f89596087806a8cf
+M/multiplicador=M/Multiplicador 21|0|v147|1462279589073|./src/Multiplicador.vhd|0*3043*0x2c0a70733af8db42825c7bfe96865081afedfc5c|0*3279*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Multiplicador.vhd|29
+
+[somador]
+A/somador=21|./src/somador.vhd|36|1*708817
+B/somador=3*205311
+I=0*4812
+I/somador=I/Somador 0*13784
+M=11|0|v147|1461769255726|./src/Somador.vhd|0*4473*0xf53c1e9b893a2a22602f2dd876edb3a1a0f257f7|0*4740*0x7bd7e13dc0415552f89596087806a8cf
+M/somador=21|0|v147|1462279589775|./src/Somador.vhd|0*6883*0xea34e29f44d2bd7db4d66a0f256e544f68120448|0*13701*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Somador.vhd|28
+
+[tanhl]
+A/tanhl=A/TanhL 21|./src/tanhl.vhd|38|1*700527
+B/tanhl=3*196145
+I=0*22233
+I/tanhl=I/TanhL 0*49920
+M=11|0|v147|1461848958578|./src/TanhL.vhd|0*21922*0xf0961d4e0638669b048b791809136f44b2cab668|0*22165*0x7bd7e13dc0415552f89596087806a8cf
+M/tanhl=M/TanhL 21|0|v147|1462279589559|./src/tanhl.vhd|0*46540*0xf0adeeaf8fe656af795d217666d22f44791aea39|0*49843*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TanhL.vhd|29
+
+[teste]
+A/teste=21|./src/teste.vhd|39|1*194051
+B/teste=3*26562
+I=0*21071
+I/teste=0*21595
+M=11|0|v147|1461848311361|./src/teste.vhd|0*20758*0xc58e1b5fcb8a556551715c5f29ec1cd466e84130|0*21003*0x7bd7e13dc0415552f89596087806a8cf
+M/teste=21|0|v147|1461851037333|./src/teste.vhd|0*21232*0x809c6d900dacdd4c2d5075e24f87cff40759ae14|0*21518*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/teste.vhd|29
+
+[~A]
+ModifyID=883
+Version=73
+
+[~MFT]
+0=215|0TanhJoao.mgf|49920|32311
+1=295|1TanhJoao.mgf|708817|693011
+3=263|3TanhJoao.mgf|205311|193188
+
+[~U]
+func1grau=11|0*39911|
+halfadder=HalfAdder 11|0*0|
+multiplicador=11|0*2249|
+somador=Somador 11|0*4267|
+tanhl=11|0*21762|
+teste=11|0*20596|
+

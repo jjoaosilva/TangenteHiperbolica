@@ -1,0 +1,490 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: TanhL.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TanhL.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TanhL"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : TanhL
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : TanhL.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/HalfAdder.vhd" in Library work.
+Architecture halfadder of Entity halfadder is up to date.
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Multiplicador.vhd" in Library work.
+Architecture multiplicador of Entity multiplicador is up to date.
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Somador.vhd" in Library work.
+Architecture somador of Entity somador is up to date.
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Func1Grau.vhd" in Library work.
+Architecture func1grau of Entity func1grau is up to date.
+Compiling vhdl file "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/TanhL.vhd" in Library work.
+Entity <tanhl> compiled.
+Entity <tanhl> (Architecture <tanhl>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TanhL> in library <work> (architecture <tanhl>).
+
+Analyzing hierarchy for entity <Func1Grau> in library <work> (architecture <func1grau>).
+
+Analyzing hierarchy for entity <Multiplicador> in library <work> (architecture <multiplicador>).
+
+Analyzing hierarchy for entity <Somador> in library <work> (architecture <somador>).
+
+Analyzing hierarchy for entity <HalfAdder> in library <work> (architecture <halfadder>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TanhL> in library <work> (Architecture <tanhl>).
+Entity <TanhL> analyzed. Unit <TanhL> generated.
+
+Analyzing Entity <Func1Grau> in library <work> (Architecture <func1grau>).
+Entity <Func1Grau> analyzed. Unit <Func1Grau> generated.
+
+Analyzing Entity <Multiplicador> in library <work> (Architecture <multiplicador>).
+Entity <Multiplicador> analyzed. Unit <Multiplicador> generated.
+
+Analyzing Entity <Somador> in library <work> (Architecture <somador>).
+Entity <Somador> analyzed. Unit <Somador> generated.
+
+Analyzing Entity <HalfAdder> in library <work> (Architecture <halfadder>).
+Entity <HalfAdder> analyzed. Unit <HalfAdder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Multiplicador>.
+    Related source file is "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Multiplicador.vhd".
+    Found 25x25-bit multiplier for signal <RESULTM>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <Multiplicador> synthesized.
+
+
+Synthesizing Unit <HalfAdder>.
+    Related source file is "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/HalfAdder.vhd".
+    Found 1-bit xor2 for signal <OUTPUT>.
+    Found 1-bit xor2 for signal <CARRYOut$xor0000> created at line 43.
+Unit <HalfAdder> synthesized.
+
+
+Synthesizing Unit <Somador>.
+    Related source file is "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Somador.vhd".
+Unit <Somador> synthesized.
+
+
+Synthesizing Unit <Func1Grau>.
+    Related source file is "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/Func1Grau.vhd".
+WARNING:Xst:646 - Signal <RESULTAux<49:34>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <RESULTAux<18:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Func1Grau> synthesized.
+
+
+Synthesizing Unit <TanhL>.
+    Related source file is "C:/Users/Joao/Desktop/RESULTADOS/EstudoTanh/TestesRenan/TanhJoao/TanhJoaoIse/TanhJoao/TanhL.vhd".
+WARNING:Xst:646 - Signal <TEMP0<49:41>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <TEMP0<15:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <OUTPUTAux0<30:27>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <OUTPUTAux0<11:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0000> created at line 94.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0001> created at line 94.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0002> created at line 94.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0003> created at line 94.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0004> created at line 94.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0005> created at line 94.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0006> created at line 94.
+    Found 25-bit comparator greater for signal <AAux$cmp_gt0007> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0000> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0001> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0002> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0003> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0004> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0005> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0006> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0007> created at line 94.
+    Found 25-bit comparator lessequal for signal <AAux$cmp_le0008> created at line 94.
+    Found 25-bit comparator greater for signal <OUTPUT$cmp_gt0000> created at line 126.
+    Found 32-bit adder for signal <OUTPUTAux0>.
+    Found 50-bit adder for signal <TEMP0>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  18 Comparator(s).
+Unit <TanhL> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 25x25-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 50-bit adder                                          : 1
+# Comparators                                          : 18
+ 25-bit comparator greater                             : 9
+ 25-bit comparator lessequal                           : 9
+# Xors                                                 : 100
+ 1-bit xor2                                            : 100
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\10.1\ISE.
+
+Synthesizing (advanced) Unit <Multiplicador>.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_RESULTM by adding 3 register level(s).
+Unit <Multiplicador> synthesized (advanced).
+WARNING:Xst:1290 - Hierarchical block <HA0> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA1> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA2> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA3> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA4> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA5> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA6> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA7> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA8> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA9> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA10> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA11> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA12> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA13> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA14> is unconnected in block <S0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <HA15> is unconnected in block <S0>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 25x25-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 41-bit adder                                          : 1
+# Comparators                                          : 18
+ 25-bit comparator greater                             : 9
+ 25-bit comparator lessequal                           : 9
+# Xors                                                 : 100
+ 1-bit xor2                                            : 100
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TanhL> ...
+
+Optimizing unit <Somador> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TanhL, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TanhL.ngr
+Top Level Output File Name         : TanhL
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 41
+
+Cell Usage :
+# BELS                             : 524
+#      GND                         : 1
+#      INV                         : 25
+#      LUT2                        : 45
+#      LUT3                        : 90
+#      LUT4                        : 123
+#      MUXCY                       : 159
+#      MUXF5                       : 15
+#      VCC                         : 1
+#      XORCY                       : 65
+# IO Buffers                       : 41
+#      IBUF                        : 25
+#      OBUF                        : 16
+# MULTs                            : 2
+#      MULT18X18SIO                : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      152  out of   4656     3%  
+ Number of 4 input LUTs:                283  out of   9312     3%  
+ Number of IOs:                          41
+ Number of bonded IOBs:                  41  out of    232    17%  
+ Number of MULT18X18SIOs:                 2  out of     20    10%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 47.972ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 514835801 / 16
+-------------------------------------------------------------------------
+Delay:               47.972ns (Levels of Logic = 57)
+  Source:            INPUT<1> (PAD)
+  Destination:       OUTPUT<15> (PAD)
+
+  Data Path: INPUT<1> to OUTPUT<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.218   0.669  INPUT_1_IBUF (INPUT_1_IBUF)
+     INV:I->O              1   0.704   0.000  TEMP0_not0000<17>1_INV_0 (TEMP0_not0000<17>)
+     MUXCY:S->O            1   0.464   0.000  Madd_TEMP0_Madd_cy<4> (Madd_TEMP0_Madd_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<5> (Madd_TEMP0_Madd_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<6> (Madd_TEMP0_Madd_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<7> (Madd_TEMP0_Madd_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<8> (Madd_TEMP0_Madd_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<9> (Madd_TEMP0_Madd_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<10> (Madd_TEMP0_Madd_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<11> (Madd_TEMP0_Madd_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<12> (Madd_TEMP0_Madd_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<13> (Madd_TEMP0_Madd_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<14> (Madd_TEMP0_Madd_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<15> (Madd_TEMP0_Madd_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<16> (Madd_TEMP0_Madd_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<17> (Madd_TEMP0_Madd_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<18> (Madd_TEMP0_Madd_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<19> (Madd_TEMP0_Madd_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<20> (Madd_TEMP0_Madd_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<21> (Madd_TEMP0_Madd_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<22> (Madd_TEMP0_Madd_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<23> (Madd_TEMP0_Madd_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<24> (Madd_TEMP0_Madd_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_TEMP0_Madd_cy<25> (Madd_TEMP0_Madd_cy<25>)
+     MUXCY:CI->O           0   0.059   0.000  Madd_TEMP0_Madd_cy<26> (Madd_TEMP0_Madd_cy<26>)
+     XORCY:CI->O           6   0.804   0.748  Madd_TEMP0_Madd_xor<27> (TEMP0<40>)
+     LUT2:I1->O           15   0.704   1.021  XAux<24>1 (XAux<24>)
+     LUT4:I3->O            1   0.704   0.000  Mcompar_AAux_cmp_le0000_lut<11>1 (Mcompar_AAux_cmp_le0000_lut<11>1)
+     MUXCY:S->O           20   0.864   1.137  Mcompar_AAux_cmp_le0000_cy<11>_1 (AAux_cmp_le0003)
+     LUT3:I2->O            6   0.704   0.844  BAux<25>11 (N4)
+     LUT4:I0->O            1   0.704   0.424  AAux<7>_SW1 (N42)
+     LUT4:I3->O            2   0.704   0.447  AAux<7> (AAux<7>)
+     MULT18X18SIO:A7->P17    1   4.873   0.499  R0/M0/Mmult_RESULTM_submult_0 (R0/M0/Mmult_RESULTM_submult_0_17)
+     LUT2:I1->O            1   0.704   0.000  R0/M0/Mmult_RESULTM0_Madd_lut<17> (R0/M0/Mmult_RESULTM0_Madd_lut<17>)
+     XORCY:LI->O           1   0.527   0.595  R0/M0/Mmult_RESULTM0_Madd_xor<17> (R0/ResultMultAux<17>)
+     LUT3:I0->O            1   0.704   0.499  R0/S0/HA18/Mxor_OUTPUT_Result239 (R0/S0/N211)
+     LUT3:I1->O            3   0.704   0.566  R0/S0/HA18/CARRYOut1 (R0/S0/C<18>)
+     LUT3:I2->O            3   0.704   0.610  R0/S0/HA20/Mxor_OUTPUT_Result11 (R0/S0/N21)
+     LUT3:I1->O            3   0.704   0.566  R0/S0/HA20/CARRYOut1 (R0/S0/C<20>)
+     LUT3:I2->O            3   0.704   0.610  R0/S0/HA22/Mxor_OUTPUT_Result11 (R0/S0/N3)
+     LUT3:I1->O            3   0.704   0.566  R0/S0/HA22/CARRYOut1 (R0/S0/C<22>)
+     LUT3:I2->O            3   0.704   0.610  R0/S0/HA24/Mxor_OUTPUT_Result11 (R0/S0/N4)
+     LUT3:I1->O            3   0.704   0.566  R0/S0/HA24/CARRYOut1 (R0/S0/C<24>)
+     LUT3:I2->O            3   0.704   0.610  R0/S0/HA26/Mxor_OUTPUT_Result11 (R0/S0/N5)
+     LUT3:I1->O            3   0.704   0.566  R0/S0/HA26/CARRYOut1 (R0/S0/C<26>)
+     LUT3:I2->O            3   0.704   0.610  R0/S0/HA28/Mxor_OUTPUT_Result11 (R0/S0/N6)
+     LUT3:I1->O            3   0.704   0.566  R0/S0/HA28/CARRYOut1 (R0/S0/C<28>)
+     LUT3:I2->O            3   0.704   0.610  R0/S0/HA30/Mxor_OUTPUT_Result11 (R0/S0/N7)
+     LUT3:I1->O            5   0.704   0.668  R0/S0/HA30/CARRYOut1 (R0/S0/C<30>)
+     LUT3:I2->O            6   0.704   0.844  R0/S0/HA40/Mxor_OUTPUT_Result11 (R0/S0/N01)
+     LUT3:I0->O            1   0.704   0.000  OUTPUTAux0_not0000<27>1 (OUTPUTAux0_not0000<27>)
+     MUXCY:S->O            1   0.464   0.000  Madd_OUTPUTAux0_cy<18> (Madd_OUTPUTAux0_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_OUTPUTAux0_cy<19> (Madd_OUTPUTAux0_cy<19>)
+     MUXCY:CI->O           0   0.059   0.000  Madd_OUTPUTAux0_cy<20> (Madd_OUTPUTAux0_cy<20>)
+     XORCY:CI->O           1   0.804   0.499  Madd_OUTPUTAux0_xor<21> (OUTPUTAux0<31>)
+     LUT4:I1->O            1   0.704   0.420  OUTPUT<15>1 (OUTPUT_15_OBUF)
+     OBUF:I->O                 3.272          OUTPUT_15_OBUF (OUTPUT<15>)
+    ----------------------------------------
+    Total                     47.972ns (31.602ns logic, 16.370ns route)
+                                       (65.9% logic, 34.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.80 secs
+ 
+--> 
+
+Total memory usage is 213080 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   22 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

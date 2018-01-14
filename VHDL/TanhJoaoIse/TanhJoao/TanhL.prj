@@ -1,0 +1,5 @@
+vhdl work "HalfAdder.vhd"
+vhdl work "Somador.vhd"
+vhdl work "Multiplicador.vhd"
+vhdl work "Func1Grau.vhd"
+vhdl work "TanhL.vhd"
