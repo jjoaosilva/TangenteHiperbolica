@@ -1,3 +1,5 @@
+from math import tanh
+
 def funTanh(num):
     resposta = 0
     sinal = 1         ## POSITIVO
@@ -41,4 +43,6 @@ def funTanh(num):
     return resposta * sinal
 
 while True:
-    print("Resposta: " + str(funTanh(float(input("Insira o valor: ")))))
+    entrada = float(input("Insira o valor: "))
+    print("Resposta Tangente hiperbolica Linearizada: " + str(funTanh(entrada)))
+    print("Resposta Tangente hiperbolica Math: " + str(tanh(entrada)))
