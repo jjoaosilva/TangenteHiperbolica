@@ -1,4 +1,4 @@
-# Tangente Hiperbolica
+# Tangente Hiperbólica
 Implementação de Tangente Hiperbólica em VHDL. Abordagem: linearização da função.
 
 ### Autor:
@@ -58,7 +58,7 @@ Dentro da pasta VHDL existem duas pastas:
 Em [1] é para projetos utilizando ActiveHdl
 Em [2] é para projetos utilizando Xilinx - Ise
 
-### Possíveis duvidas
+### Possíveis dúvidas
 * Representação numérica é feita com ponto fixo de acordo com o tamanho do número.
 * Para verificar o valor do número caso o bit mais significativo seja igual a 1, basta aplicar o complemento de dois e fazer as conversões normalmente.
 * Para fazer a conversão, basta aplicar a conversão comum de binário-decimal-inteiro na pare inteira e binário-decimal-fracionária na parte fracionária.
