@@ -23,6 +23,9 @@ Para uma boa precisão, fora usadas 9 retas (equações do primeiro grau) para r
 
 ## Implementações
 
+### Retas
+Na pasta 'Equacoes' você irá encontrar as equações que representam a tangente hiperbólica no intervalo de -5 a +5 em decimal e binário.
+
 ### Python
 Para testes rápidos e validação, na pasta 'Python' contém a implementação função Tangente Hiperbólica Linearizada fazendo comparativo com a Tangente hiperbólica da Math do próprio Python.
 
