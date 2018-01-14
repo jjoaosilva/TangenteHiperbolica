@@ -43,9 +43,24 @@ O componente mais externo é o TanhL. Nele se faz a lógica de verificar a qual 
 * Os próximos 8 bits para a parte inteira
 * Os próximos 16 bits para a parte fracionária
 
-Obs: Caso o bit mais significativo seja igual a 1, o que diz que o valor é negativo, é necessário fazer o complemento de dois para que seja obtido o valor real no número.
+![alt text](https://github.com/jjoaosilva/TangenteHiperbolica/blob/master/imgs/25Bits.PNG?raw=true)
 
 #### A saída do componente possui 16 bits: 
 * bit mais significativo: sinal => 0 para positivo, 1 para negativo
 * Os próximos 3 bits para a parte inteira
 * Os próximos 12 bits para a parte fracionária
+
+#### Para usar
+Dentro da pasta VHDL existem duas pastas:
+* TanhJoaoActiveHdl [1]
+* TanhJoaoIse       [2]
+
+Em [1] é para projetos utilizando ActiveHdl
+Em [2] é para projetos utilizando Xilinx - Ise
+
+### Possíveis duvidas
+* Representação numérica é feita com ponto fixo de acordo com o tamanho do número.
+* Para verificar o valor do número caso o bit mais significativo seja igual a 1, basta aplicar o complemento de dois e fazer as conversões normalmente.
+* Para fazer a conversão, basta aplicar a conversão comum de binário-decimal-inteiro na pare inteira e binário-decimal-fracionária na parte fracionária.
+* Para saber quantos bits tem a parte fracionária e a parte inteira, basta saber que após uma multiplicação, o número de bits da parte fracionária sempre dobra. Com isso, basta subtrair o número de bits da parte fracionária + bit de sinal do número de bits total para ter o número de bits da parte inteira.
+* As retas podem ser representadas em qualquer tamanho de bits, basta ter cuidado com possíveis casos de overflow.
