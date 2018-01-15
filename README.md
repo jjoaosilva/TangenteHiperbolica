@@ -67,3 +67,6 @@ Em [2] é para projetos utilizando Xilinx - Ise
 * Para fazer a conversão, basta aplicar a conversão comum de binário-decimal-inteiro na pare inteira e binário-decimal-fracionária na parte fracionária.
 * Para saber quantos bits tem a parte fracionária e a parte inteira, basta saber que após uma multiplicação, o número de bits da parte fracionária sempre dobra. Com isso, basta subtrair o número de bits da parte fracionária + bit de sinal do número de bits total para ter o número de bits da parte inteira.
 * As retas podem ser representadas em qualquer tamanho de bits, basta ter cuidado com possíveis casos de overflow.
+
+License
+O projeto é licenciado pela MIT License - veja a [LICENSE.md](LICENSE) para mais detalhes
